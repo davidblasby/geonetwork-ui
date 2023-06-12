@@ -1,4 +1,5 @@
 import { Component } from '@angular/core'
+import { FieldsService } from '@geonetwork-ui/feature/search'
 
 @Component({
   selector: 'geonetwork-ui-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core'
 })
 export class AppComponent {
   title = 'my-app'
+
+
+  constructor(private service: FieldsService) {}
+
+
 }

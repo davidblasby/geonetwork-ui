@@ -4,7 +4,7 @@
   "projectType": "application",
   "prefix": "geonetwork-ui",
   "sourceRoot": "apps/my-app/src",
-  "tags": [],
+  "tags": ["type:app", "published"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
